@@ -1,0 +1,28 @@
+
+h1 {
+    background-color: #fbbc05;
+    color: #66666;
+    text-align : center;
+    padding-top : 77px;
+    padding-bottom : 63px;
+    border-bottom : 3px solid gray;
+    margin :0;
+}
+
+ul {
+    border-right : 3px solid gray;
+    width: 180px;
+    margin: 0;
+    padding : 20px;
+
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+}
+
+#article {
+    padding-left : 180px;
+}
