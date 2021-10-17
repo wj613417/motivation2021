@@ -1,6 +1,17 @@
+body {
+    margin : 0;
+    font-weight: bold;
+    
+}
+
+a {
+    color : #666666;
+    text-decoration: none;
+}
 
 h1 {
     background-color: #fbbc05;
+    font-size: 45px;
     color: #66666;
     text-align : center;
     padding-top : 77px;
@@ -11,7 +22,7 @@ h1 {
 
 ul {
     border-right : 3px solid gray;
-    width: 180px;
+    width: 100px;
     margin: 0;
     padding : 20px;
 
@@ -24,5 +35,20 @@ ul {
 }
 
 #article {
-    padding-left : 180px;
+    padding-left : 25px;
+    padding-right : 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 800px) {
+    #grid {
+        display: block;
+    }
+    ul {
+        border-right : none;     
+    }
+    h1 {
+        border-bottom : none;
+    }
 }
